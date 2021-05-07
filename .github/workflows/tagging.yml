@@ -35,4 +35,4 @@ jobs:
         with:
           src: ghcr.io/chananananu/bookinfo-ratings:uat
           dst: |
-            ghcr.io/chananananubookinfo-ratings:${{needs.git-tag.outputs.tag-version}}
+            ghcr.io/chananananu/bookinfo-ratings:${{needs.git-tag.outputs.tag-version}}
